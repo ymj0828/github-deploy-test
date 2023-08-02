@@ -15,3 +15,31 @@ body {
   overflow: hidden;
 }
 
+header {
+  margin-bottom: 50px;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+}
+header ul li {
+  padding: 0 20px;
+}
+
+main {
+
+}
+main a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+main a img {
+  width: 500px;
+}
